@@ -1,7 +1,7 @@
 @font-face{font-family:"Arcade";src:url("fonts/game_font.ttf") format("truetype");font-display:swap}
 :root{--bg:#0b0a14;--panel:#14122a;--line:#2a2650;--gold:#ffd35a;--red:#b3342f;--text:#e8e4ff;--muted:#a9a2d8}
 *{box-sizing:border-box}
-html{background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%}
+html{scroll-behavior:smooth;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-text-size-adjust:100%}
 body{margin:0;background:radial-gradient(circle at 20% 0,#1b1838 0,transparent 55%),var(--bg);min-height:100vh;display:flex;flex-direction:column}
 a{color:var(--gold)}a:hover{color:#fff}
 .px{font-family:"Arcade",monospace;text-transform:uppercase;letter-spacing:.04em}
@@ -28,3 +28,8 @@ footer{border-top:2px solid var(--line);padding:20px;text-align:center;color:var
 footer a{color:var(--muted)}
 html.l-es .en{display:none!important}html.l-en .es{display:none!important}
 @media(max-width:560px){h1{font-size:32px}h2{font-size:24px}.knight{float:none;display:block;margin:0 auto 12px}}
+.soon{margin:6px 0 0;color:var(--muted);font-size:14px}
+.totop{display:none;position:fixed;right:16px;bottom:16px;z-index:10;font-family:"Arcade",monospace;font-size:16px;text-transform:uppercase;text-decoration:none;color:#1a1030;background:var(--gold);padding:8px 14px 8px 12px;border-bottom:4px solid var(--red);box-shadow:3px 3px 0 #05040a}
+.totop:hover{color:#1a1030;filter:brightness(1.1)}
+.totop::before{content:"";display:inline-block;margin-right:8px;border:solid transparent;border-width:0 6px 8px;border-bottom-color:#1a1030}
+html.l-es .totop .en,html.l-en .totop .es{display:none!important}

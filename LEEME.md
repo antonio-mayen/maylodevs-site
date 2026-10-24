@@ -26,3 +26,14 @@ Alternativas igual de simples: Cloudflare Pages o Netlify (arrastrar la carpeta)
 - Politica de privacidad: `https://TUDOMINIO/privacy/`
 - URL de soporte: `https://TUDOMINIO/support/`
 - URL de marketing: `https://TUDOMINIO/akeme/`
+
+## Enlaces de las tiendas (cuando la app este publicada)
+En `index.html` y `akeme/index.html` busca el comentario `STORE-LINKS`. Cambia cada `<span class="btn off">` por `<a class="btn" href="ENLACE">` con el enlace de la App Store o de Google Play (o pasame los enlaces y te devuelvo el sitio listo). Para usar las insignias oficiales, descargalas de Apple y de Google y sigue sus guias de uso.
+
+## Anuncios: app-ads.txt
+El sitio no lleva anuncios. Si la app usa AdMob, hace falta un archivo `app-ads.txt` en la raiz del sitio (`https://maylodevs.com/app-ads.txt`) con una linea como:
+`google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0`
+donde `pub-XXXXXXXXXXXXXXXX` es TU identificador de editor de AdMob (lo da tu cuenta de AdMob). No lo crees antes de tener ese identificador.
+
+## Boton "ir al inicio"
+Cada pagina termina con un boton "Ir al inicio" y, al bajar, aparece un boton flotante "Inicio" abajo a la derecha.
