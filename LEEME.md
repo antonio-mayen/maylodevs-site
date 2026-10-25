@@ -37,3 +37,8 @@ donde `pub-XXXXXXXXXXXXXXXX` es TU identificador de editor de AdMob (lo da tu cu
 
 ## Boton "ir al inicio"
 Cada pagina termina con un boton "Ir al inicio" y, al bajar, aparece un boton flotante "Inicio" abajo a la derecha.
+
+## Novedades de esta version
+- Politica de privacidad actualizada para un juego CON anuncios de AdMob. Publicala solo junto con la version que lleva anuncios (o antes, no pasa nada). Cuando el juego tenga el boton de consentimiento en Ajustes, la politica ya lo menciona.
+- Pagina de prensa (`press/`) con ficha tecnica e imagenes descargables, `404.html`, `robots.txt` y `sitemap.xml` (puedes enviar el sitemap en Google Search Console).
+- Menu con enlace a Prensa; textos de Sprint (150 m) y reto diario (100 m) al dia.
