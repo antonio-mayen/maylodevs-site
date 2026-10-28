@@ -42,3 +42,6 @@ Cada pagina termina con un boton "Ir al inicio" y, al bajar, aparece un boton fl
 - Politica de privacidad actualizada para un juego CON anuncios de AdMob. Publicala solo junto con la version que lleva anuncios (o antes, no pasa nada). Cuando el juego tenga el boton de consentimiento en Ajustes, la politica ya lo menciona.
 - Pagina de prensa (`press/`) con ficha tecnica e imagenes descargables, `404.html`, `robots.txt` y `sitemap.xml` (puedes enviar el sitemap en Google Search Console).
 - Menu con enlace a Prensa; textos de Sprint (150 m) y reto diario (100 m) al dia.
+
+## Pagina de prensa
+Por ahora la pagina de prensa solo tiene la ficha tecnica y un correo de contacto; se quitaron las descargas de imagenes. Cuando el juego este publicado, anade capturas y un trailer, indica en la pagina para que se pueden usar (cobertura, resenas, videos) y no subas archivos originales de trabajo, solo versiones listas para publicar.
